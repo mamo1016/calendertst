@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04A4C835204951600097F905 /* DateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A4C834204951600097F905 /* DateManager.swift */; };
+		04A4C837204951D10097F905 /* CalendarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A4C836204951D10097F905 /* CalendarCell.swift */; };
 		04CC7172203DB4E100087160 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CC7171203DB4E100087160 /* AppDelegate.swift */; };
 		04CC7174203DB4E100087160 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CC7173203DB4E100087160 /* ViewController.swift */; };
 		04CC7177203DB4E100087160 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CC7175203DB4E100087160 /* Main.storyboard */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04A4C834204951600097F905 /* DateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateManager.swift; sourceTree = "<group>"; };
+		04A4C836204951D10097F905 /* CalendarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCell.swift; sourceTree = "<group>"; };
 		04CC716E203DB4E100087160 /* calendertst.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = calendertst.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04CC7171203DB4E100087160 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04CC7173203DB4E100087160 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +110,8 @@
 				04CC717D203DB4E100087160 /* LaunchScreen.storyboard */,
 				04CC7180203DB4E100087160 /* Info.plist */,
 				04CC7178203DB4E100087160 /* calendertst.xcdatamodeld */,
+				04A4C834204951600097F905 /* DateManager.swift */,
+				04A4C836204951D10097F905 /* CalendarCell.swift */,
 			);
 			path = calendertst;
 			sourceTree = "<group>";
@@ -263,8 +269,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				04CC7174203DB4E100087160 /* ViewController.swift in Sources */,
+				04A4C835204951600097F905 /* DateManager.swift in Sources */,
 				04CC7172203DB4E100087160 /* AppDelegate.swift in Sources */,
 				04CC717A203DB4E100087160 /* calendertst.xcdatamodeld in Sources */,
+				04A4C837204951D10097F905 /* CalendarCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
